@@ -1,0 +1,2 @@
+import StudentForm from "@/components/student-form";
+export default function TambahMahasiswaPage() { return <><header className="mb-7"><p className="text-sm font-medium text-orange-600">Data Mahasiswa</p><h1 className="mt-1 text-3xl font-bold tracking-tight text-stone-900">Tambah Mahasiswa</h1><p className="mt-2 text-stone-500">Lengkapi data untuk membuat QR Code mahasiswa baru.</p></header><StudentForm /></>; }
